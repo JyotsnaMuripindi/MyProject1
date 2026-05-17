@@ -11,18 +11,24 @@
 	<header>JYOTSNA MURIPINDI</header>
 	<div class="container" >
 	<div class="sidebar">
-       	<a href="#About">About</a><br>
-      	<a href="#education"> Education</a><br>
-      	<a href="#skills">Skills</a><br>
-      	<a href="#projects">Projects</a><br>
-      	<a href="#achievements">Achievements</a><br>
+       	<a href="about.html" >About</a><br>
+      	<a href="education.html"> Education</a><br>
+      	<a href="skills.html">Skills</a><br>
+      	<a href="projects.html">Projects</a><br>
+      	<a href="achievements.html">Achievements</a><br>
     	
 	</div>
 	<div class="content">
-		<h1> Hello , I am Jyotsna Muripindi..</h1>
-		<img src="image1.png">
-		<p>I am a 3rd year Computer Science and Systems Engineering student at Lendi Institute of Engineering and Technology.</p>
+	<div class="left">
+		<h1> Hello , I am Jyotsna Muripindi..</h1><br>
+		
+		<p>I am a 3rd year Computer Science and Systems Engineering student at Lendi Institute of Engineering and Technology.</p><br>
+	</div>
+	<div class="right">
+		<img src="image1.png" class="profile">
 	</div>
 	</div>
+	
+	
   </body>
 </html>
