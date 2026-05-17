@@ -4,8 +4,25 @@
     <meta charset ="UTF-8" >
     <meta name="viewport" width="device-width" lang="en">
     <title>PlaceTracker</title>
+	<link rel="stylesheet" href="style.css"
     <link rel="icon" href="https://images.openai.com/static-rsc-4/JMPTyDenVwJ7fkMyRCYz7XgybH3irUlX809NI0GA5yQ_Nc0xoHV_l8fHRhlbN0q388SqoFsPApASaHp031c9V54tnlg7bulHffAYAn6lH4f2VFezXROqjfH8zEl2oFoioSFThbXVDL1O5gFQ6YKhAZUxq0LJIW3XbZyQsmhAkieeqLufko78BcJuF0pZoDYB?purpose=inline">
   </head>
   <body>
+	<header>JYOTSNA MURIPINDI</header>
+	<div class="container" >
+	<div class="sidebar">
+       	<a href="#About">About</a><br>
+      	<a href="#education"> Education</a><br>
+      	<a href="#skills">Skills</a><br>
+      	<a href="#projects">Projects</a><br>
+      	<a href="#achievements">Achievements</a><br>
+    	
+	</div>
+	<div class="content">
+		<h1> Hello , I am Jyotsna Muripindi..</h1>
+		<img src="image1.png">
+		<p>I am a 3rd year Computer Science and Systems Engineering student at Lendi Institute of Engineering and Technology.</p>
+	</div>
+	</div>
   </body>
 </html>
