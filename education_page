@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Education</title>
+		<style>
+			 header{
+			background-color:pink;
+			color:blue;
+			height:40px;
+			text-align:center;
+			}
+			  body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      background-color: pink;
+      color: blue;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .section {
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .year {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .institution {
+      font-weight: bold;
+    }
+
+    .description {
+      margin-top: 10px;
+    }
+		</style>
+	</head>
+	<body>
+	<header><h1>Education</h1></header>
+		<div class="section" >
+		<span class="year"><b>2023-2027<b></span>
+		
+		<h2>B.Tech - Computer Science and Systems Engineering</h2>
+		<p>At Lendi Institute of Engineering and Technology</p>
+		<p>Currently pursuing Bachelor's degree with focus on programming,web development, databases.</p>		
+		</div>
+		
+		<div class="section">
+		<span class="year"><b>2021-2022<b></span>
+		<h2>Intermediate Education</h2>
+		<p>At Ravi Junior College</p>
+		<p>Completed intermediate education with strong foundation in mathematics and siences.</p>
+		</div>
+		</div>
+	</body>
+</html>
