@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Achievements</title>
+  <style>
+	header{
+			background-color:pink;
+			color:blue;
+			height:40px;
+			text-align:center;
+			}
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    .achievements-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .achievement-card {
+      width: 300px;
+      border: 2px solid #007BFF;
+      border-radius: 15px;
+      padding: 20px;
+      background: #f9f9f9;
+      transition: transform 0.3s;
+    }
+    .achievement-card:hover {
+      transform: scale(1.05);
+    }
+    .achievement-card img {
+      width: 80px;
+      height: 80px;
+    }
+    .achievement-card h3 {
+      margin: 15px 0 10px;
+      color: #007BFF;
+    }
+    .achievement-card p {
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+ <header> <h2>My Achievements</h2></header>
+
+  <div class="achievements-container">
+    <div class="achievement-card">
+      <img src="image4.png" alt="Achievement Icon">
+      <h3>GATE 2026 Qualified</h3>
+      <p>Achieved All India Rank 12000 in GATE 2026.</p>
+    </div>
+	<div class="achievement-card">
+      <img src="image4.png" alt="Certification Icon">
+      <h3>Fortinet NSE4 Stage 1</h3>
+      <p>Successfully cleared the NSE4 exam, earning Stage 1 of Fortinet Global Certification.</p>
+    
+  </div>
+
+</body>
+</html>
