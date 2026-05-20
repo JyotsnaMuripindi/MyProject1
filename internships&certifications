@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internships & Certifications</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    header {
+      background-color: pink;
+      color: blue;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+    }
+    .internships-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 50px;
+    }
+    .internship-card {
+      width: 250px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    .internship-card:hover {
+      transform: scale(1.05);
+    }
+    .internship-card h3 {
+      margin: 10px;
+    }
+    .internship-detail {
+      display: none;
+      margin-top: 30px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background: #f9f9f9;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <header><h1>Internships & Certifications</h1></header>
+
+  <div class="internships-container">
+    <div class="internship-card" onclick="showDetail('internship')">
+      <h3>Internships</h3>
+    </div>
+
+    <div class="internship-card" onclick="showDetail('certification')">
+      <h3>Certifications</h3>
+    </div>
+  </div>
+
+  <!-- Detail Sections -->
+  <div id="internship" class="internship-detail">
+    <h3>Internships</h3>
+    <ol>
+      <li>Cyber Security Virtual Internship</li>
+      <li>Java Fullstack Virtual Internship</li>
+      <li>Fortinet Virtual Internship</li>
+    </ol>
+  </div>
+
+  <div id="certification" class="internship-detail">
+    <h3>Certifications</h3>
+    <ol>
+      <li>Human Computer Interaction</li>
+      <li>Natural Language Processing</li>
+      <li>Google Cloud Computing</li>
+    </ol>
+  </div>
+
+  <script>
+    function showDetail(sectionId) {
+      // Hide all details first
+      document.querySelectorAll('.internship-detail').forEach(div => {
+        div.style.display = 'none';
+      });
+      // Show selected section
+      document.getElementById(sectionId).style.display = 'block';
+      // Scroll smoothly to detail
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
