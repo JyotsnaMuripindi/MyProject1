@@ -8,7 +8,7 @@ overflow:hidden;
 }
 .container{
 display:flex;
-height:100vh;
+
 }
 .sidebar{
 line-spacing:20px;
@@ -88,3 +88,8 @@ margin-top:-40px;
 
     border:5px solid cyan;
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
